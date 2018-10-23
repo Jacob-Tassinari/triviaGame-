@@ -12,6 +12,8 @@
 		86AA8B1F2178D7CD008B45FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8B1D2178D7CD008B45FF /* Main.storyboard */; };
 		86AA8B212178D7CE008B45FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8B202178D7CE008B45FF /* Assets.xcassets */; };
 		86AA8B242178D7CE008B45FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AA8B222178D7CE008B45FF /* LaunchScreen.storyboard */; };
+		86AA8B2E217A2B62008B45FF /* AddQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8B2D217A2B62008B45FF /* AddQuestionView.swift */; };
+		86AA8B30217A2BAF008B45FF /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA8B2F217A2BAF008B45FF /* TriviaQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		86AA8B202178D7CE008B45FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AA8B232178D7CE008B45FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86AA8B252178D7CE008B45FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AA8B2D217A2B62008B45FF /* AddQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionView.swift; sourceTree = "<group>"; };
+		86AA8B2F217A2BAF008B45FF /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				86AA8B192178D7CD008B45FF /* AppDelegate.swift */,
+				86AA8B2F217A2BAF008B45FF /* TriviaQuestion.swift */,
+				86AA8B2D217A2B62008B45FF /* AddQuestionView.swift */,
 				86AA8B1B2178D7CD008B45FF /* ViewController.swift */,
 				86AA8B1D2178D7CD008B45FF /* Main.storyboard */,
 				86AA8B202178D7CE008B45FF /* Assets.xcassets */,
@@ -137,6 +143,8 @@
 			files = (
 				86AA8B1C2178D7CD008B45FF /* ViewController.swift in Sources */,
 				86AA8B1A2178D7CD008B45FF /* AppDelegate.swift in Sources */,
+				86AA8B30217A2BAF008B45FF /* TriviaQuestion.swift in Sources */,
+				86AA8B2E217A2B62008B45FF /* AddQuestionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
